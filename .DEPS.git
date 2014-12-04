@@ -11,10 +11,16 @@ vars = {
     'webkit_rev':
          '@2c6dc5df0697282418a2671a5a9cd0fc0a0dc662',
     'angle_revision':
-         'afeeda9391c1f3fc0c35c04fbc448480177059d8'
+         'afeeda9391c1f3fc0c35c04fbc448480177059d8',
+    'github_url':
+         'https://github.com/mogoweb/chromium_webview.git
 }
 
 deps = {
+    'src':
+       Var('github_url') + '/chromium-crosswalk.git@119d7ada6dfbbdcbea3dd411420d29055d8c8278',
+    'src/chromeview':
+       Var('github_url') + '/chromium_webview.git',
     'src/breakpad/src':
         Var('git_url') + '/external/google-breakpad/src.git@64dfc4d07c1b247ae69e1d4317f49950e399b9e9',
     'src/buildtools':
