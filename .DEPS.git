@@ -13,7 +13,7 @@ vars = {
     'angle_revision':
          'afeeda9391c1f3fc0c35c04fbc448480177059d8',
     'github_url':
-         'https://github.com/mogoweb/chromium_webview.git
+         'https://github.com/mogoweb/chromium_webview.git'
 }
 
 deps = {
