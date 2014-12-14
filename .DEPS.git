@@ -113,7 +113,7 @@ vars = {
     'pyftpdlib':
          'http://pyftpdlib.googlecode.com/svn',
     'google-safe-browsing':
-         'http://google-safe-browsing.googlecode.com/svn'
+         'http://google-safe-browsing.googlecode.com/svn',
     'github_url':
          'https://github.com/mogoweb'
 }
@@ -523,19 +523,19 @@ skip_child_includes = [
 ]
 
 hooks = [
-    {
-    'action':
-         [
-    'python',
-    'src/build/download_nacl_toolchains.py',
-    '--exclude',
-    'arm_trusted'
-],
-    'pattern':
-         '.',
-    'name':
-         'nacltools'
-},
+#    {
+#    'action':
+#         [
+#    'python',
+#    'src/build/download_nacl_toolchains.py',
+#    '--exclude',
+#    'arm_trusted'
+#],
+#    'pattern':
+#         '.',
+#    'name':
+#         'nacltools'
+#},
     {
     'action':
          [
